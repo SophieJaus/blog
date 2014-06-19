@@ -7,7 +7,9 @@ function connectDB($host, $username, $password, $db) {
 }
 
 function login($username, $password) {
-	$query = mysql_query("SELECT id_user, username FROM users WHERE username = '" .mysql_real_escape_string($username)."' AND password ='".sha1($password.'1990')."'") OR die(mysql_error());
+	$query = mysql_query("SELECT id_user, username FROM users WHERE username =
+	'" .mysql_real_escape_string($username)."' AND password ='".sha1($password.'1990')."'") 
+	OR die(mysql_error());
 	
 	$row = mysql_fetch_assoc($query);
 	
