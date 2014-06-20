@@ -8,20 +8,20 @@ body{
 	font-family: Tahoma, arial;
 	margin: auto; 
 	text-align: center;
-	background-color: #fff;
+	background-color:#E0F2F7;
 	}
 
 header.head div.title {
-	font-size: 45px;
+	font-size:45px;
 	font-weight: bold;
 	text-align: center;
-	color: orange;
-	background-color: #414141;
+	color: #8A0808;
+	background-color: #5882FA;
 	}
 	
 h1 {
-	color: Orange;
-	font-size: 30px;
+	color: #FE642E;
+	font-size: 14px;
 	text-align: center;
 	font-weight: normal;
 	}	
@@ -87,7 +87,7 @@ table.tableau tr td {
 	}
 	
 hr {
-	border: solid 2px grey;
+	border: solid 1px white;
 	}
 	
 form.add_article {

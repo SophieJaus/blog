@@ -7,6 +7,6 @@
 ?>
 	
 	
-	<?php echo "<h1>Bonjour " . $_SESSION['user']."</h1>";?>
+	<?php echo "<h1>Bonjour " . $_SESSION['user']['username']."</h1>";?>
 	
 <?php include_once('includes/footer.php');?>
